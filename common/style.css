@@ -9,6 +9,17 @@ h1 {
     font-family: "Impact";
 }
 
+h2 {
+    text-align: center;
+    color: white;
+    font-family: "Impact";
+}
+
+
+figcaption {
+    color: white;
+}
+
 p {
     text-align: center;
     color: white;
@@ -31,6 +42,7 @@ ol {
     padding: 0;
     display: flex;
     justify-content: space-around;
+    z-index: 9;
 }
 
 .navbar a {
@@ -88,8 +100,8 @@ ol {
     .navbar a {
         text-align: center;
         display: block;
-        padding: 10px; /* Adjust padding to fit within the fixed height */
-        line-height: 30px; /* Centers text vertically */
+        padding: 10px;
+        line-height: 30px;
     }
 
     .textbox {
