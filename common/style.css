@@ -66,9 +66,9 @@ ol {
     border-radius: 10px;
     border: 4px solid transparent;
     box-shadow: 0 0 3px 5px #AAB6A2;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 @media (width <= 800px) {
     figure img {
@@ -113,5 +113,5 @@ ol {
 
     .textbox {
         margin-bottom: 60px;
-      }
+    }
 }
