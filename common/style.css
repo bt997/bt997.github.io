@@ -15,7 +15,6 @@ h2 {
     font-family: "Impact";
 }
 
-
 figcaption {
     color: white;
 }
@@ -70,6 +69,14 @@ ol {
     margin-left: 50px;
     margin-right: 50px;
   }
+
+@media (width <= 800px) {
+    figure img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+}
 
 @media (width <= 600px) {
     body {
