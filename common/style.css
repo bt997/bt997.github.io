@@ -55,6 +55,10 @@ ol {
     background-color: black;
 }
 
+.navbar a:active {
+    background-color: #4086AA;
+}
+
 .navbar li {
     float: left;
 }

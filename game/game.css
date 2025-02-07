@@ -17,6 +17,17 @@
     align-items: center;
 }
 
+.column:hover {
+    cursor: pointer;
+    border: dashed black;
+    background-color: orange;
+    transition-duration: 1s;
+}
+
+.column:active {
+    border: dashed red;
+}
+
 .redM {
     background-color: pink;
     border: 1px solid #AAB6A2;
